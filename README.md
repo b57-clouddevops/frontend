@@ -35,7 +35,7 @@ Deploy in Nginx Default Location.
 Finally restart the service once to effect the changes.
 
 ```
-# systemctl restart nginx 
+# systemctl restart nginx -l
 ```
  Check for the status of the service 
  
