@@ -1,6 +1,7 @@
 # Frontend ( nginx web-server )
 
 Nginx is an openSource webServer
+We will use NGNIX as webserver with Reverse Proxy Capability
 
 The frontend is the service in RobotShop to serve the web content over Nginx.
 All the webcontent of the application will be serverd by this frontend
