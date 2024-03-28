@@ -1,4 +1,4 @@
-# Frontend ( web-server )
+# Frontend ( nginx web-server )
 
 The frontend is the service in RobotShop to serve the web content over Nginx.
 All the webcontent of the application will be serverd by this frontend
