@@ -5,7 +5,7 @@ The frontend is the service in RobotShop to serve the web content over Nginx.
 To Install Nginx.
 
 ```
-# yum install nginx -y
+# dnf install nginx -y
 # systemctl enable nginx 
 # systemctl start nginx 
 ```
@@ -32,4 +32,9 @@ Finally restart the service once to effect the changes.
 
 ```
 # systemctl restart nginx 
+```
+ Check for the status of the service 
+ 
+```
+# systemctl status nginx
 ```
