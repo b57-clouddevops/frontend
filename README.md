@@ -33,9 +33,8 @@ Finally restart the service once to effect the changes.
 ```
 # systemctl restart nginx 
 ```
-
  Check for the status of the service 
-
+ 
 ```
 # systemctl status nginx
 ```
