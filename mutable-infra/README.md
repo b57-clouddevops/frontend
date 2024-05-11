@@ -1,0 +1,1 @@
+This contains the code that's needed to provision the infra and this will be the root module and the backend code would be in `tf-module-mutable-app`
