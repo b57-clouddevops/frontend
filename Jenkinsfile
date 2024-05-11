@@ -1,7 +1,7 @@
 @Library('shared-library') _
 
 env.COMPONENT="frontend"
-env.APPTYPE="angular"
+env.APPTYPE="angularjs"
 env.NEXUS_URL = "172.31.38.109"
 env.SONAR_URL = "172.31.38.100"
 
