@@ -23,18 +23,18 @@ spec:
         image: 355449129696.dkr.ecr.us-east-1.amazonaws.com/frontend:VERSION
         ports:              # port where your container listens
         - containerPort: 80
-        # livenessProbe:
-        #   httpGet:
-        #     path: /health
-        #     port: 80
-        #   initialDelaySeconds: 10
-        #   periodSeconds: 10
-        # readinessProbe:
-        #   httpGet:
-        #     path: /health
-        #     port: 80
-        #   initialDelaySeconds: 10
-        #   periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 10
         resources:
           requests:
             memory: "64Mi"
