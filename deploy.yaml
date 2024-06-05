@@ -9,7 +9,7 @@ spec:
   strategy:
     type: RollingUpdate
     rollingUpdate:
-      maxUnavailable: 50
+      maxSurge: 1
   selector:
     matchLabels:
       app: frontend
