@@ -18,10 +18,10 @@ spec:
       labels:
         app: frontend
     spec:
-      securityContext:                  # This describes the pods to run as non-root
-        runAsUser: 1000
-        runAsGroup: 1000
-        fsGroup: 1000
+      # securityContext:                  # This describes the pods to run as non-root
+      #   runAsUser: 1000
+      #   runAsGroup: 1000
+      #   fsGroup: 1000
       containers:
       - name: frontend
         image: 355449129696.dkr.ecr.us-east-1.amazonaws.com/frontend:VERSION
