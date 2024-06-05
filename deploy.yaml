@@ -22,7 +22,7 @@ spec:
       - name: frontend
         image: 355449129696.dkr.ecr.us-east-1.amazonaws.com/frontend:401
         ports:              # port where your container listens
-        - containerPort: 8080
+        - containerPort: 80
         livenessProbe:
           httpGet:
             path: /health
