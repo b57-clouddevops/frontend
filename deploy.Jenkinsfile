@@ -1,5 +1,8 @@
 pipeline {
     agent any 
+    parameters {
+        string(name: 'APP_VERSION', defaultValue: '403', description: 'Applicaiton Version To Be Deployed') 
+    }
     stages {
         stage('Deploying Frontend') {
             steps {
